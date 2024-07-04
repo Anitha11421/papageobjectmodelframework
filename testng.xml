@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<!--<listeners>
+		<listener class-name="com.automation.listners.TCActivityAdopterListner"></listener>
+	</listeners> --> 
+			<test thread-count="5" name="Test">
+    <classes>
+    <!--  <class name="com.rameshsoft.automation.businessscript.FpTest"/>
+      <class name="com.rameshsoft.automation.businessscript.FbTest"/>
+     
+      <class name="com.rameshsoft.automation.businessscript.InstTest"/>
+      <class name="com.rameshsoft.automation.businessscript.GmailTest"/>-->
+     
+     <!--  <class name="com.rameshsoft.automation.businessscript.AmazonTest"/>-->
+        <!--<class name="com.rameshsoft.automation.businessscript.DatePickersWebTableProg"/>-->
+        <class name="com.rameshsoft.automation.businessscript.GmailPomTest"/>
+      <!--  <class name="com.rameshsoft.automation.businessscript.FpPomTest"/>
+        <class name="com.rameshsoft.automation.businessscript.FbPomTest"/>
+        <class name="com.rameshsoft.automation.businessscript.InstPomTest"/>-->
+        
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
